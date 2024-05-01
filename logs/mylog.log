@@ -1,0 +1,240 @@
+Error while parsing css selector: .form-control:-ms-input-placeholder
+java.lang.IllegalArgumentException: Unsupported pseudo css selector: :-ms-input-placeholder
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.appendPseudoSelector(CssSelectorParser.java:213)
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.parseSelectorItems(CssSelectorParser.java:123)
+	at com.itextpdf.styledxmlparser.css.selector.CssSelector.<init>(CssSelector.java:76)
+	at com.itextpdf.styledxmlparser.css.parse.CssRuleSetParser.parseRuleSet(CssRuleSetParser.java:132)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.processProperties(CssParserStateController.java:389)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.storeCurrentProperties(CssParserStateController.java:314)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.PropertiesState.process(PropertiesState.java:71)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.process(CssParserStateController.java:178)
+	at com.itextpdf.styledxmlparser.css.parse.CssStyleSheetParser.parse(CssStyleSheetParser.java:84)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.collectCssDeclarations(DefaultCssResolver.java:295)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.<init>(DefaultCssResolver.java:137)
+	at com.itextpdf.html2pdf.attach.impl.DefaultHtmlProcessor.processDocument(DefaultHtmlProcessor.java:239)
+	at com.itextpdf.html2pdf.attach.Attacher.attach(Attacher.java:78)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToDocument(HtmlConverter.java:325)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:139)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:127)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:104)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:92)
+	at org.example.PdfGenerator.generatePDF(PdfGenerator.java:28)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:138)
+	at org.example.Menu.displayMenu(Menu.java:29)
+	at org.example.Main.main(Main.java:12)
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-o-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-ms-viewport is unsupported. All selectors in this rule will be ignored.
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Margin value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+No worker found for tag script
+Error while parsing css selector: .form-control:-ms-input-placeholder
+java.lang.IllegalArgumentException: Unsupported pseudo css selector: :-ms-input-placeholder
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.appendPseudoSelector(CssSelectorParser.java:213)
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.parseSelectorItems(CssSelectorParser.java:123)
+	at com.itextpdf.styledxmlparser.css.selector.CssSelector.<init>(CssSelector.java:76)
+	at com.itextpdf.styledxmlparser.css.parse.CssRuleSetParser.parseRuleSet(CssRuleSetParser.java:132)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.processProperties(CssParserStateController.java:389)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.storeCurrentProperties(CssParserStateController.java:314)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.PropertiesState.process(PropertiesState.java:71)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.process(CssParserStateController.java:178)
+	at com.itextpdf.styledxmlparser.css.parse.CssStyleSheetParser.parse(CssStyleSheetParser.java:84)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.collectCssDeclarations(DefaultCssResolver.java:295)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.<init>(DefaultCssResolver.java:137)
+	at com.itextpdf.html2pdf.attach.impl.DefaultHtmlProcessor.processDocument(DefaultHtmlProcessor.java:239)
+	at com.itextpdf.html2pdf.attach.Attacher.attach(Attacher.java:78)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToDocument(HtmlConverter.java:325)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:139)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:127)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:104)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:92)
+	at org.example.PdfGenerator.generatePDF(PdfGenerator.java:29)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:138)
+	at org.example.Menu.displayMenu(Menu.java:29)
+	at org.example.Main.main(Main.java:12)
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-o-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-ms-viewport is unsupported. All selectors in this rule will be ignored.
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Margin value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+No worker found for tag script
+Invalid css property declaration: /
+Invalid css property declaration: /
+Invalid css property declaration: /
+Invalid css property declaration: /
+Invalid css property declaration: /
+Error while parsing css selector: .form-control:-ms-input-placeholder
+java.lang.IllegalArgumentException: Unsupported pseudo css selector: :-ms-input-placeholder
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.appendPseudoSelector(CssSelectorParser.java:213)
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.parseSelectorItems(CssSelectorParser.java:123)
+	at com.itextpdf.styledxmlparser.css.selector.CssSelector.<init>(CssSelector.java:76)
+	at com.itextpdf.styledxmlparser.css.parse.CssRuleSetParser.parseRuleSet(CssRuleSetParser.java:132)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.processProperties(CssParserStateController.java:389)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.storeCurrentProperties(CssParserStateController.java:314)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.PropertiesState.process(PropertiesState.java:71)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.process(CssParserStateController.java:178)
+	at com.itextpdf.styledxmlparser.css.parse.CssStyleSheetParser.parse(CssStyleSheetParser.java:84)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.collectCssDeclarations(DefaultCssResolver.java:295)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.<init>(DefaultCssResolver.java:137)
+	at com.itextpdf.html2pdf.attach.impl.DefaultHtmlProcessor.processDocument(DefaultHtmlProcessor.java:239)
+	at com.itextpdf.html2pdf.attach.Attacher.attach(Attacher.java:78)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToDocument(HtmlConverter.java:325)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:139)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:127)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:104)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:92)
+	at org.example.PdfGenerator.generatePDF(PdfGenerator.java:31)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:138)
+	at org.example.TypeOfAccount.profile(TypeOfAccount.java:207)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:141)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:132)
+	at org.example.Menu.displayMenu(Menu.java:29)
+	at org.example.Main.main(Main.java:12)
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-o-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-ms-viewport is unsupported. All selectors in this rule will be ignored.
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Margin value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+No worker found for tag script
+Invalid css property declaration: /
+Error while parsing css selector: .form-control:-ms-input-placeholder
+java.lang.IllegalArgumentException: Unsupported pseudo css selector: :-ms-input-placeholder
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.appendPseudoSelector(CssSelectorParser.java:213)
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.parseSelectorItems(CssSelectorParser.java:123)
+	at com.itextpdf.styledxmlparser.css.selector.CssSelector.<init>(CssSelector.java:76)
+	at com.itextpdf.styledxmlparser.css.parse.CssRuleSetParser.parseRuleSet(CssRuleSetParser.java:132)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.processProperties(CssParserStateController.java:389)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.storeCurrentProperties(CssParserStateController.java:314)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.PropertiesState.process(PropertiesState.java:71)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.process(CssParserStateController.java:178)
+	at com.itextpdf.styledxmlparser.css.parse.CssStyleSheetParser.parse(CssStyleSheetParser.java:84)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.collectCssDeclarations(DefaultCssResolver.java:295)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.<init>(DefaultCssResolver.java:137)
+	at com.itextpdf.html2pdf.attach.impl.DefaultHtmlProcessor.processDocument(DefaultHtmlProcessor.java:239)
+	at com.itextpdf.html2pdf.attach.Attacher.attach(Attacher.java:78)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToDocument(HtmlConverter.java:325)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:139)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:127)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:104)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:92)
+	at org.example.PdfGenerator.generatePDF(PdfGenerator.java:31)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:163)
+	at org.example.TypeOfAccount.profile(TypeOfAccount.java:221)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:166)
+	at org.example.Menu.displayMenu(Menu.java:29)
+	at org.example.Main.main(Main.java:12)
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-o-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-ms-viewport is unsupported. All selectors in this rule will be ignored.
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Margin value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E)
+No worker found for tag script
+No worker found for tag script
+Invalid css property declaration: /
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E)
+Invalid css property declaration: /
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E)
+Unable to retrieve image with given base URI (file:/C:/Users/bobby/IdeaProjects/Certigraph/) and image source path (data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23991B1B' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E)
+Error while parsing css selector: .form-control:-ms-input-placeholder
+java.lang.IllegalArgumentException: Unsupported pseudo css selector: :-ms-input-placeholder
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.appendPseudoSelector(CssSelectorParser.java:213)
+	at com.itextpdf.styledxmlparser.css.parse.CssSelectorParser.parseSelectorItems(CssSelectorParser.java:123)
+	at com.itextpdf.styledxmlparser.css.selector.CssSelector.<init>(CssSelector.java:76)
+	at com.itextpdf.styledxmlparser.css.parse.CssRuleSetParser.parseRuleSet(CssRuleSetParser.java:132)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.processProperties(CssParserStateController.java:389)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.storeCurrentProperties(CssParserStateController.java:314)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.PropertiesState.process(PropertiesState.java:71)
+	at com.itextpdf.styledxmlparser.css.parse.syntax.CssParserStateController.process(CssParserStateController.java:178)
+	at com.itextpdf.styledxmlparser.css.parse.CssStyleSheetParser.parse(CssStyleSheetParser.java:84)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.collectCssDeclarations(DefaultCssResolver.java:295)
+	at com.itextpdf.html2pdf.css.resolve.DefaultCssResolver.<init>(DefaultCssResolver.java:137)
+	at com.itextpdf.html2pdf.attach.impl.DefaultHtmlProcessor.processDocument(DefaultHtmlProcessor.java:239)
+	at com.itextpdf.html2pdf.attach.Attacher.attach(Attacher.java:78)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToDocument(HtmlConverter.java:325)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:139)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:127)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:104)
+	at com.itextpdf.html2pdf.HtmlConverter.convertToPdf(HtmlConverter.java:92)
+	at org.example.PdfGenerator.generatePDF(PdfGenerator.java:46)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:189)
+	at org.example.TypeOfAccount.profile(TypeOfAccount.java:269)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:192)
+	at org.example.TypeOfAccount.homePage(TypeOfAccount.java:179)
+	at org.example.Main.Menu(Main.java:57)
+	at org.example.RegistrationManager.registerUser(RegistrationManager.java:125)
+	at org.example.Main.Menu(Main.java:50)
+	at org.example.Main.main(Main.java:22)
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-o-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @-ms-viewport is unsupported. All selectors in this rule will be ignored.
+The rule @-webkit-keyframes is unsupported. All selectors in this rule will be ignored.
+The rule @keyframes is unsupported. All selectors in this rule will be ignored.
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+No worker found for tag script
+Margin value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+Padding value in percents not supported
+No worker found for tag script

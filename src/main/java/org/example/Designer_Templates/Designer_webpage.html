@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Upload</title>
+    <style>
+        body {
+            text-align: center; /* Para centrar el contenido horizontalmente */
+            margin: 0; /* Para eliminar el margen predeterminado */
+            padding: 0; /* Para eliminar el relleno predeterminado */
+        }
+        .container {
+            margin-top: 50px; /* Espacio superior */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Certigraph</h1>
+    <h2>Welcome to Designer Account</h2>
+    <img src="https://i.ibb.co/cTtT3vF/image-11.png">
+    <h3>In this page users with designer account would be able to upload their own templates.</h3>
+    <h3>Remember it must be jpg, png or gif</h3>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
+
